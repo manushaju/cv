@@ -1,0 +1,26 @@
+#canada:hover{
+        color: red;
+        font-family: courier;
+  }
+hr{
+  border-style: dotted none none;
+  width: 7%;
+  border-color: #968c83;
+  border-width: 10px;
+}
+body{
+  background-color: #d6d2c4;
+}
+
+a{
+  color: #0f3057;
+}
+
+h1{
+  color: #532e1c;
+}
+
+h3{
+  color: #532e1c;
+  font-family: cursive;
+}
