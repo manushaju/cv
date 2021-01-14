@@ -3,45 +3,71 @@
   <head>
     <meta charset="utf-8">
     <title>Manu Shaju's Personal Website</title>
-    <link rel="stylesheet" type="text/css" href="styles/index_styles.css">
+
+    <!-- Cascading Style Sheet -->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!-- Icon Details -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
   </head>
   <body>
-    <table cellpadding="10">
-      <tr>
-        <td><img src ='images/manushaju.jpg' alt='manu profile picture' height='200px'/></td>
-        <td><h1>Manu Shaju</h1>
-          <ul>
-            <li>Mainframe Developer</li>
-            <li>Web Developer</li>
-            <li id="canada">Planning for higher studies❤</li>
-          </ul>
-        </td>
-        <td id = "contactme">
-          <a href="pages/contact-me.html">Contact Me</a>
-        </td>
-      </tr>
-    </table>
+  	<div class='top-container'>
+      <img class='top-cloud' src='images/cloud.png' atl='cloud-image'>
+      <h1>I'm Manu.</h1>
+      <h2>An <span class='mystate'>aspiring</span> programmer.</h2>
+      <img class='bottom-cloud' src='images/cloud.png' atl='cloud-image'>
+      <img class='only-mountain' src='images/mountain.png' atl='mountain-image'>
+    </div>
+   <div class="middle-container">
+    <div class="profile">
+      <img class='profile_pic' src="images/Manu_Profile.png" alt="ManuShaju">
+      <h2>Hello.</h2>
+      <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia, dolor urna. Non auctor, montes nulla distinctio.</p>
+    </div>
     <hr>
-    <!-- Below is a second -->
-    <h3>Work Experience</h3>
-    <table>
-      <tr>
-        <td>Mainframe Development (Senior Application Developer) - BNY Mellon Technologies</td>
-        <td>2015 - present</td>
-      </tr>
-      <tr>
-        <td>Java Development (Freelancing)</td>
-        <td>2011 - 2015</td>
-      </tr>
-    </table>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skill-image1" src="images/chillies.png" alt="">
+        <h3>Lorem & Ipsum</h3>
+        <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id felis. Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-image2" src="images/computer.png" alt="">
+        <h3>Coding</h3>
+        <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
+      </div>
+    </div>
+  </div>
     <hr>
-    <h3>Hobbies</h3>
-    <ol>
-      <li>Reading</li>
-      <li>Cooking</li>
-      <li>Coding❤</li>
-      <li>Hiking</li>
-    </ol>
+    <div class="contact-me">
+      <h2>Teaching</h2>
+      <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+      <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+    </div>
+  </div>
 
-  </body>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a> |
+    <a class="footer-link" href="https://twitter.com/">Twitter</a> |
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright-msg">© 2021 Manu Shaju (pending)</p>
+  </div>
+
+	</body>
 </html>

@@ -1,0 +1,129 @@
+body{
+	margin:0;
+	text-align: center;
+	color: #40514E;
+	font-family: 'Montserrat', sans-serif;
+}
+h1{
+	margin: 50px auto 0 auto;
+	font-family: 'Sacramento', cursive;
+	font-size: 5.6rem;
+	color: #66BFBF;
+}
+
+h2{
+	font-size: 2rem;
+	color: #66BFBF;
+	font-weight: normal;
+	font-family: 'Roboto Mono', monospace;
+}
+
+h3{
+	color: #11999E;
+}
+
+a{
+	color: #11999E;
+	font-family: 'Montserrat', sans-serif;
+	margin: 10px 20px;
+	text-decoration: none;
+
+}
+
+a:hover{
+	color: #EAF6F6;
+	font-family: 'Montserrat', sans-serif;
+	margin: 10px 20px;
+	text-decoration: none;
+	
+}
+
+hr{
+  border-style: dotted none none;
+  width: 7%;
+  border-color: #EAF6F6;
+  border-width: 5px;
+}
+
+/*Styles for the Classes*/
+.page1{
+	border-style: dashed;
+	background-color: tomato;
+	color: yellow;
+	font-family: 'Sacramento', cursive;
+}
+
+.top-container{
+	background-color: #EAF6F6;
+	position: relative;
+	padding-top: 100px;
+	
+
+}
+
+.middle-container{
+	/*background-color: #EAF6ff;*/
+	margin: 100px 0;
+	
+}
+
+.bottom-container{
+	background-color: #66BFBF;
+	padding: 50px;
+}
+
+.mystate{
+	text-decoration: underline;
+}
+
+.profile_pic{
+	width: 15%;
+	height: 15%;
+}
+
+.skill-row{
+	width: 50%;
+	margin: 100px auto;
+	text-align: left;
+	line-height: 1;
+}
+
+.skill-image1{
+	width: 25%;
+	height: 25%;
+	float: left;
+	margin-right: 30px;
+}
+
+.skill-image2{
+	width: 25%;
+	height: 25%;
+	float: right;
+	margin-left: 30px;
+}
+
+
+
+/*.bottom-container{
+	background-color: tomato;
+	width: 200px;
+	height: 200px;
+}*/
+
+.top-cloud{
+	position: absolute;
+	right: 300px;
+	top: 50px;
+}
+
+.bottom-cloud{
+	position: absolute;
+	
+}
+
+.copyright-msg{
+	padding: 20px 0;
+	font-size: .75rem;
+	color: #EAF6F6;
+
+}
